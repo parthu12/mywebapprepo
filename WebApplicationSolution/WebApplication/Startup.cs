@@ -32,7 +32,7 @@ namespace WebApplication
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("welcome to Azure!");
+                    await context.Response.WriteAsync("welcome to Azure version 2!");
                 });
             });
         }
